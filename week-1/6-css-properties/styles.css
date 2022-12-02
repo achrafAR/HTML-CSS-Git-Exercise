@@ -1,1 +1,19 @@
 /* Add your CSS code below */
+.message a:link {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message__time {
+  font-size: 0.9rem;
+}
+.message:nth-child(3) {
+  border-left: 3px solid;
+  border-color: blue;
+}
+.message:nth-child(1) {
+  opacity: 50%;
+}
+p {
+  line-height: 300%;
+}
