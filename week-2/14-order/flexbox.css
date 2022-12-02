@@ -1,5 +1,19 @@
 .countries {
+  width: 65%;
   display: flex;
 }
 
 /* Add your own CSS code below */
+.countries--first li:nth-child(1) {
+  order: 5;
+}
+.countries--second li:first-child {
+  order: 3;
+}
+.countries--second li:last-child {
+  order: 5;
+}
+.countries--third {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
