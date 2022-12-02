@@ -1,5 +1,15 @@
 .countries {
   display: flex;
+  width: 65%;
 }
 
 /* Add your own CSS code below */
+.countries--first li:nth-child(3) {
+  align-self: flex-end;
+}
+.countries--second {
+  align-items: center;
+}
+.countries--second li:nth-child(3) {
+  align-self: flex-end;
+}
